@@ -1,0 +1,243 @@
+/*
+* Copyright 2013, Ryan Dawson
+* www.iamryandawson.com
+*/
+
+/* Table of Contents
+==================================================
+    #Reset
+    #Base Styles
+    #Vertical Rhythm
+    #Site Styles
+    #Typography
+    #Page Styles
+    #Media Queries
+    #Font-Face */
+
+/* #Reset (Inspired by E. Meyers)
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; }
+ol, ul {
+    list-style: none; }
+blockquote, q {
+    quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none; }
+table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular-webfont.eot');
+    src: url('fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/raleway-regular-webfont.woff') format('woff'),
+    url('fonts/raleway-regular-webfont.ttf') format('truetype'),
+    url('fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texgyre-adventor';
+    src: url('fonts/texgyreadventor-regular-webfont.eot');
+    src: url('fonts/texgyreadventor-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/texgyreadventor-regular-webfont.woff') format('woff'),
+    url('fonts/texgyreadventor-regular-webfont.ttf') format('truetype'),
+    url('fonts/texgyreadventor-regular-webfont.svg#texgyre-adventor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'texgyre-adventor-bold';
+    src: url('fonts/texgyreadventor-bold-webfont.eot');
+    src: url('fonts/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/texgyreadventor-bold-webfont.woff') format('woff'),
+    url('fonts/texgyreadventor-bold-webfont.ttf') format('truetype'),
+    url('fonts/texgyreadventor-bold-webfont.svg#texgyre-adventor') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* #Base Styles
+================================================== */
+html {
+    font: 62.5% "LeagueGothicRegular";
+    /*background:#1a1a1a url(/imgs/bgdk.jpg);*/
+}
+body {
+    font:1.2em/1.6667 texgyre-adventor, ralewayregular, Arial, Helvetica, sans-serif;
+/*    background: url("/imgs/bhp/thebg.jpg") repeat scroll 0 0 #F5F6E9; */
+    background:#ffffff;
+    color:#3a3a3a;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+
+/* #Vertical Rhythm
+================================================== */
+
+h1 {
+    font-size: 2.667em;
+    line-height:1.25;
+    margin:0 0 0.625em;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.667;
+    margin:0 0 0.834em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.112;
+    margin:0 0 1.112em;
+}
+
+h4 {
+    font-size: 1.334em;
+    line-height: 1.249;
+    margin:1.249em 0;
+}
+
+h5 {
+    font-size: 0.917em;
+    line-height: 1.812;
+    margin:0 0 1.812em;
+}
+h6 {
+    font-size: 0.833em;
+    line-height: 2;
+    margin:0 0 2em;
+}
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 { font-weight:400; font-family:Georgia, Times, "Times New Roman", serif; }
+
+p, ul, ol {
+    font-size: 1.167em;
+    line-height: 1.429;
+    margin:0 0 1.429em;
+}
+/*	Blockquotes  */
+blockquote, blockquote p { font-style: italic }
+blockquote { border-left: 1px solid #ddd }
+blockquote cite { display: block }
+blockquote cite:before { content: "\2014 \0020" }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
+small { font-size: 80%; }
+
+/* #Site Styles
+================================================== */
+body {
+    margin-bottom:3.3334em;
+    background: url("/assets/images/flag-420short.jpg") no-repeat center top;
+    background-size: 100%;
+}
+a:hover, a:active { color: #800B19 }
+#header { margin-bottom:0 }
+#nav    { margin-top: 1.66667em }
+#logo {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    line-height: 1;
+    width: 150px;
+}
+#logo img { max-width:100%; width:100% }
+#logo span { float:left; display: none }
+#menu-toggle {
+    background: url('/assets/images/menu-btn-blue.png') no-repeat 98% center;
+    height: 44px;
+    margin: 0;
+    padding: 5px 0;
+}
+#menu-toggle:hover { cursor:pointer }
+#menu-toggle span { display:none }
+#nav { display:block; text-align: right }
+/*#nav ul li { border-top:1px solid #1a1a1a; line-height:3.333; width:auto }*/
+#nav ul li a { text-align:left; text-indent:2ex }
+#nav ul {
+    text-align:center;
+    margin:0 auto;
+    overflow:hidden;
+    display:none
+}
+#nav li a { display:inline-block; color:#ffffff; text-align:center; text-decoration:none; white-space:nowrap; padding:1ex 2ex; margin:0 1ex }
+#nav li a:hover, #nav li a.current { background-color: #003366; }
+#nav li:first-child a { border:none }
+#main { padding-top:3.3334em; min-height: 200px}
+#main, #footer { border-top:1px solid #DCDCDC }
+.bird-border { background:url('../imgs/bhp/bird-border-top.png') no-repeat center top; height:40px }
+#footer { padding-top:1.6667em }
+
+#footer li { display:inline-block; text-align: center }
+#usa-made img, #dalaco img { max-width100%; max-height: 50px }
+#usa-made img { max-height: 60px}
+
+/* #Social Network Ticks
+================================================== */
+#socials { display:inline; }
+#socials li { float:left; margin-left:10px; }
+#socials li:first-child { margin-left:0; }
+
+#socials a { display:block; background: url('/imgs/social-ticks.png') no-repeat 0 0; height:22px; width:22px; }
+#socials span { display:none; }
+#in a { background-position: 0 0; }
+#in a:hover { background-position: 0 -21px; }
+#tw a { background-position: -21px 0; }
+#tw a:hover { background-position: -21px -21px; }
+#su a { background-position: -42px 0; }
+#su a:hover { background-position: -42px -21px; }
+
+/* #Media Queries
+================================================== */
+/* Tablet Portrait */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url("/assets/images/flag-780short.jpg");
+    }
+	#nav #menu-toggle { display:none !important }
+	#nav ul { display: inline-block; font-size:1em; margin-top: 1.66667em; }
+	#nav ul li { display: inline-block }
+    #nav ul li a { line-height:2; text-transform:uppercase; text-indent:0; text-align:center; background-color: #4b6784; color: #cfcfcf; border-radius: 12px; padding:0 2ex; min-width:15ex; margin:1ex }
+    #nav ul li a:hover, #nav ul li a.current { color: #fff }
+
+    li#usa-made { text-align: left }
+    li#dalaco { text-align: right }
+
+    #main { padding-top:3.3334em; min-height: 350px}
+
+}
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    #nav li a { font-size: 0.85714em; line-height:3.5 }
+}
+
+@media only screen and (min-width: 960px) {
+    body {
+        background-image: url("/assets/images/flag-1280short.jpg");
+    }
+}

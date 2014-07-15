@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('raleway-regular-webfont.eot');
+    src: url('raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('raleway-regular-webfont.woff') format('woff'),
+    url('raleway-regular-webfont.ttf') format('truetype'),
+    url('raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'OptimaThinRegular';
+    src: local('OptimaThinRegular'),
+    src: url('optima-webfont.eot'); /*ie9*/
+    src: url('optima-webfont.eot?iefix'), /*ie6-ie8*/
+    url('optima-webfont.woff') format('woff'), /*modern browsers*/
+    url('optima-webfont.ttf') format('truetype'), /*safari, etc*/
+    url('optima-webfont.svg') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('oxygen-webfont.eot');
+    src: url('oxygen-webfont.eot?#iefix') format('embedded-opentype'),
+    url('oxygen-webfont.woff') format('woff'),
+    url('oxygen-webfont.ttf') format('truetype'),
+    url('oxygen-webfont.svg#oxygenregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oxygenitalic';
+    src: url('oxygen-italic-webfont.eot');
+    src: url('oxygen-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('oxygen-italic-webfont.woff') format('woff'),
+    url('oxygen-italic-webfont.ttf') format('truetype'),
+    url('oxygen-italic-webfont.svg#oxygenitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+html {
+    background: #2d2d2e url("../images/dark-texture.png");
+}
+
+body {
+    background: url("../images/points-bg.png") no-repeat 50% 0;
+    background: url("../images/points.jpg") no-repeat 50% 0;
+    color: #222222;
+    font: 1.6em/1.25 oxygenregular,ralewayregular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+strong { font-weight: 700 }
+
+h2 {
+    font-family: oxygenitalic, verdana, sans-serif;
+    font-size: 1.71428em;
+    font-style: italic;
+    line-height: 1.25;
+    margin-bottom: 0.83334em;
+}
+
+h2, #services strong {
+    color: #0071bb;
+    text-shadow: -2px 2px #222;
+}
+
+#services p {
+    color: #c9c9c9;
+    font: 1.125/1 oxygenitalic, verdana, sans-serif;
+    font-style: italic;
+}
+
+#main, #hero, #services div:first-child, #contact div:first-child, #nav>div, #footer {
+    max-width: 880px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#main {
+    margin-bottom: 1.66667em;
+    padding-top: 4em;
+}
+
+
+#services, #contact {
+    border-top:4px solid #222222;
+    min-height:350px;
+    padding:4.5em 0;
+    color: #ccc;
+}
+
+#services div:first-child > div, #contact div:first-child > div {
+    float: right;
+    width:70%;
+}
+
+#welcome {
+    float: right;
+    margin:1.66667em 2ex;
+    width:60%;
+}
+
+#welcome h2 {
+    font-size: 2em;
+}
+#welcome h2 span {
+    color: #9c9c9c;
+}
+
+#welcome h2 span, #welcome i {
+    font-size:.75em;
+    line-height: 1.66667;
+}
+
+#welcome h2 span span {
+    font-size:1em;
+}
+
+#welcome i {
+    display: block;
+    color: #6699cc;
+}
+
+#welcome h2 span span, #welcome i {
+    margin-left:20%;
+}
+
+#services li span, #contact li span {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+}
+
+#services li strong {
+    display: inline-block;
+    margin-right: 3%;
+    vertical-align: top;
+    width: 32%;
+    /*display: block;*/
+}
+
+#services ul li, #contact ul li {
+    margin-bottom: 1.6667em;
+}
+
+#contact {
+    border-color:#003366;
+	background-color:#336699;
+    background-image: url("../images/blue-texture.png");
+}
+
+#hero {
+    text-align: center;
+}
+
+#logo img {
+    width: 360px
+}
+
+#nav {
+    /*background: url("../images/dark-texture.png") repeat scroll 0 0 #2A2A2A;*/
+    background: #1a1a1a;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    /*opacity: .5;*/
+    overflow: hidden;
+    height:3.25em;
+}
+
+#nav>div img {
+    visibility: hidden;
+    float:left;
+    height:2.5em;
+    margin:.375em 0
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    float:right;
+    padding: 0;
+}
+
+#nav li {
+    /*list-style: none;*/
+    /*float: left;*/
+    /*margin: 0 2ex;*/
+    /*padding: 0;*/
+    /*background: #333;*/
+    /*color: #efefef;*/
+    display:inline;
+    margin: 0;
+    padding: 0;
+}
+
+#nav li a {
+    font-family: verdana, sans-serif;
+    font-size: 1em;
+    color: #8a8a8a;
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;}
+
+#nav li a:hover, #nav li a:active {
+    background: #1a1a1a;
+    color:#cccccc;
+    text-decoration: underline
+}
+
+#logo { background: url("../images/singer-logo.png"); height:70px; width: 360px }
+
+#emailUs {
+    background: url("../images/email-icon.png") no-repeat scroll 0 50%;
+    color: #EEEEEE;
+    display: inline-block;
+    padding-left: 24px;
+    text-decoration: none;
+}
+
+#emailUs:hover { text-decoration:underline }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    html, #services, #contact {
+        background-size: 200px 200px;
+    }
+
+    html {
+        background-image: url("../images/dark-texture-2x.png");
+    }
+
+    #services {
+        background-image: url("../images/dark-texture-2x.png");
+    }
+    #contact {
+        background-image: url("../images/blue-texture-2X.png");
+    }
+
+    #logo { background: url("../images/singer-logo-2x.png"); background-size: 360px 70px; }
+}
+
+@media all and (max-width:1024px) {
+    #main, #welcome, #services div:first-child, #contact div:first-child, #nav>div, #footer {
+        max-width: 80%;
+    }
+
+    #welcome {
+        font-size: 0.8em;
+    }
+
+    #hero img { width: 100%; max-width: 100% }
+}
+}

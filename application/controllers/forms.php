@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class About extends CI_Controller {
+class Forms extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -14,6 +14,6 @@ class About extends CI_Controller {
 	 
     public function index()
     {
-        $this->template->title('About')->build('about');
+        $this->template->build('forms');
     }
 }

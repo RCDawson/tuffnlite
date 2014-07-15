@@ -824,12 +824,14 @@ class Template
      */
     public function alerts($wrapper='p') {
         if($this->_ci->session->flashdata('messages')) {
+            $html = '';
             foreach( $this->_ci->session->flashdata('messages') as $k=>$v) {
-                echo '<'.$wrapper.' class="cms-msg-'.$k.' cms-50w">';
+                $html .= '<'.$wrapper.' class="cms-msg-'.$k.' cms-50w">';
                 foreach($v as $msgs) {
-                    echo $msgs.'<br>';
+                    $html .= $msgs.'<br>';
                 }
             }
+            echo $html . '</' . $wrapper . '>';
         }
     }
 

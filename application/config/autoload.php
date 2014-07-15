@@ -64,7 +64,7 @@ $autoload['libraries'] = array('template','session');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array();
+$autoload['helper'] = array('base');
 
 
 /*
@@ -92,7 +92,7 @@ $autoload['config'] = array();
 |	$autoload['language'] = array('lang1', 'lang2');
 |
 | NOTE: Do not include the "_lang" part of your file.  For example
-| "codeigniter_lang.php" would be referenced as array('codeigniter');
+    | "codeigniter_lang.php" would be referenced as array('codeigniter');
 |
 */
 
