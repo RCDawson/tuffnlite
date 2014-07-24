@@ -14,6 +14,6 @@ class Forms extends CI_Controller {
 	 
     public function index()
     {
-        $this->template->build('forms');
+        $this->template->title('Aluminum Concrete Forms')->build('forms');
     }
 }
