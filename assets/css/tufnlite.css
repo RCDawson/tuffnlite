@@ -42,6 +42,7 @@ hr {
     border-width: 1px 0 0;
     clear: both;
     height: 0;
+    margin:1.66667em 0;
 }
 
 @font-face {
@@ -132,7 +133,7 @@ h6 {
 
 /* #Typography
 ================================================== */
-h1, h2, h3, h4, h5, h6 { font-weight:400; font-family:Georgia, Times, "Times New Roman", serif; }
+h1, h2, h3, h4, h5, h6 { font-weight:400; }
 
 p, ul, ol {
     font-size: 1.167em;
@@ -140,8 +141,7 @@ p, ul, ol {
     margin:0 0 1.429em;
 }
 /*	Blockquotes  */
-blockquote, blockquote p { font-style: italic }
-blockquote { border-left: 1px solid #ddd }
+blockquote, blockquote p { font-style: italic; font-size:1.6em; padding:2ex }
 blockquote cite { display: block }
 blockquote cite:before { content: "\2014 \0020" }
 
@@ -163,7 +163,6 @@ a:hover, a:active { color: #800B19 }
     display: inline-block;
     float: left;
     margin: 0;
-    line-height: 1;
     width: 150px;
 }
 #logo img { max-width:100%; width:100% }
@@ -178,7 +177,7 @@ a:hover, a:active { color: #800B19 }
 #menu-toggle span { display:none }
 #nav { display:block; text-align: right }
 /*#nav ul li { border-top:1px solid #1a1a1a; line-height:3.333; width:auto }*/
-#nav ul li a { text-align:left; text-indent:2ex }
+#nav ul li a { text-align:left; text-indent:1em }
 #nav ul {
     text-align:center;
     margin:0 auto;
@@ -188,8 +187,9 @@ a:hover, a:active { color: #800B19 }
 #nav li a { display:inline-block; color:#ffffff; text-align:center; text-decoration:none; white-space:nowrap; padding:1ex 2ex; margin:0 1ex }
 #nav li a:hover, #nav li a.current { background-color: #003366; }
 #nav li:first-child a { border:none }
-#main { padding-top:3.3334em; min-height: 200px}
-#main, #footer { border-top:1px solid #DCDCDC }
+#main { min-height: 200px}
+#main { border-top:1px solid #DCDCDC }
+#footer { border-top:3px solid #e52540 }
 .bird-border { background:url('../imgs/bhp/bird-border-top.png') no-repeat center top; height:40px }
 #footer { padding-top:1.6667em }
 
@@ -212,6 +212,49 @@ a:hover, a:active { color: #800B19 }
 #su a { background-position: -42px 0; }
 #su a:hover { background-position: -42px -21px; }
 
+/* Hero
+================================================= */
+#hero { background-color:#003366; color:#ffffff; overflow: hidden }
+#hero a, #hero a:visited { color: #ffffff; text-decoration:none; border-bottom: 1px dotted #efefef }
+#hero div:first-child div { padding:1.66667em; margin:0 }
+#hero h2 { font-size: 3.33333em; border-bottom:1px solid #ffffff; margin-bottom: .25em }
+#hero h2.smaller { font-size: 2.55em; }
+#hero h2.smaller:first-child { margin-bottom:0 }
+#hero h3 { font-size: 1.5em; line-height: 1.25 }
+#hero h4 { font-size: 1.15em; color:#ffff66; line-height: 1.25 }
+#hero .eight img { max-width:100%; width:100%; display: block }
+
+/* Hero
+================================================= */
+.spotlight { width:18.4%; float:left; margin-left:2% }
+.spotlight:first-child { margin-left:0 }
+.spotlight h4 {
+    background-color: #003366;
+    border-radius: 6px 6px 0 0;
+    color:#efefef;
+    font-size:1.2em;
+    margin-bottom: 0;
+    padding:1ex 3ex;
+    text-align: center
+}
+.spotlight img {
+    max-width: 100%;
+    width: 100%;
+}
+.spotlight ul {
+    font-family: helvetica, arial, freesans, clean, sans-serif;
+    list-style: disc outside none;
+    padding-left:1em;
+}
+
+#nav2 { margin-top: 1.66667em }
+#nav2 ul { font-size:1em; margin: 1.66667em 0 0; overflow: hidden }
+#nav2 li { display: block; float: left; margin-left: 2.5%; width: 18%; }
+#nav2 li:first-child { margin-left: 0 }
+#nav2 ul li a { line-height:2; text-transform:uppercase; text-indent:0; text-align:center; background-color: #4b6784; color: #cfcfcf; border-radius: 12px; text-decoration: none }
+#nav2 ul li a { background-color: #4b6784; display: block; text-align: center }
+#nav2 ul li a:hover, #nav2 li a.current { background-color: #003366; }
+
 /* #Media Queries
 ================================================== */
 /* Tablet Portrait */
@@ -219,25 +262,33 @@ a:hover, a:active { color: #800B19 }
     body {
         background-image: url("/assets/images/flag-780short.jpg");
     }
-	#nav #menu-toggle { display:none !important }
+	#menu-toggle { display:none !important }
 	#nav ul { display: inline-block; font-size:1em; margin-top: 1.66667em; }
 	#nav ul li { display: inline-block }
     #nav ul li a { line-height:2; text-transform:uppercase; text-indent:0; text-align:center; background-color: #4b6784; color: #cfcfcf; border-radius: 12px; padding:0 2ex; min-width:15ex; margin:1ex }
     #nav ul li a:hover, #nav ul li a.current { color: #fff }
-
+    #nav #logo { width: 18% }
+    #nav ul { width: 80%; font-size: .8em }
+    #hero div:first-child div { padding:1.5em; }
+    #hero h2 { font-size:2.5em; line-height: 1.25 }
+    #hero p { font-size:1em; line-height: 1.66667 }
     li#usa-made { text-align: left }
     li#dalaco { text-align: right }
 
-    #main { padding-top:3.3334em; min-height: 350px}
-
+    #main { margin-top:0; min-height: 350px}
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
     #nav li a { font-size: 0.85714em; line-height:3.5 }
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 988px) {
     body {
         background-image: url("/assets/images/flag-1280short.jpg");
     }
+    /*#main { margin-top:2em; }*/
+    #nav ul { font-size: 1em; text-align: right }
+    #hero h3 { font-size: 2em }
+    #hero h4 { font-size: 1.66667em }
+    #hero p { font-size: 1.167em; line-height: 1.429; }
 }

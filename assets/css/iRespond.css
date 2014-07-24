@@ -31,7 +31,7 @@
 
 /* #Tablet (Portrait)
 ================================================== */
-@media only screen and (min-width: 768px) and (max-width: 977px) {
+@media only screen and (min-width: 768px) and (max-width: 987px) {
 
 	.container						{ width: 744px; margin:0 auto; }
 	.container .column,
