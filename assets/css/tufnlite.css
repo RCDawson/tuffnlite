@@ -291,4 +291,10 @@ a:hover, a:active { color: #800B19 }
     #hero h3 { font-size: 2em }
     #hero h4 { font-size: 1.66667em }
     #hero p { font-size: 1.167em; line-height: 1.429; }
+
+    .spotlight h4 { min-height: 2.5em; vertical-align: middle }
+    .spotlight img { height: 141px; }
+    .oneFifth, .twoFifths { margin-left: 30px }
+    .oneFifth { width:171px; }
+    .twoFifths { width:373px; }
 }
