@@ -45,7 +45,7 @@
     </div>
     <div class="spotlight twoFifths">
         <h4>Aluminum Tie Pin, Angle Clip and Cap Clip</h4>
-        <img src="/assets/images/forms/spotlight-fpo.jpg">
+        <img src="/assets/images/accessories/accessories-3up.jpg">
         <p>Optional Ready Pin attached hardware is durable, lightweight and increases labor productivity, while reducing lost hardware expenses.</p>
     </div>
 </div>
