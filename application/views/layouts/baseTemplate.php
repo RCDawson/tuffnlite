@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Tuff-N-Lite : <?php echo $template['title']; ?></title>
+    <title>Tuf-N-Lite : <?php echo $template['title']; ?></title>
 
     <link rel="stylesheet" href="/assets/css/baseGray.css">
     <link rel="stylesheet" href="/assets/css/iRespond.css">
@@ -29,7 +29,7 @@
 <div class="container">
     <ul id="footer" class="row">
         <li class="column two" id="usa-made"><img src="/assets/images/made-in-usa.png" alt="Made In The U.S.A."></li>
-        <li class="column seven">4805 HAMILTON-MIDDLETOWN RD. &#149; HAMILTON, OHIO 45011 &#149; 1-800-382-0105
+        <li class="column seven">4805 HAMILTON-MIDDLETOWN RD. &#149; HAMILTON, OHIO 45011 &#149; 1-800-327-3376
             <br>&copy;<?php date_default_timezone_set("America/Chicago"); echo date("Y"); ?> - TUF-N-LITE&reg; All Rights Reserved.
         </li>
         <li class="column three" id="dalaco"><img src="/assets/images/dalaco-logo.png" alt="Dalaco Manufacturing"></li>
