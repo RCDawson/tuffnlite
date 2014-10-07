@@ -29,8 +29,9 @@
 <div class="container">
     <ul id="footer" class="row">
         <li class="column two" id="usa-made"><img src="/assets/images/made-in-usa.png" alt="Made In The U.S.A."></li>
-        <li class="column seven">4805 HAMILTON-MIDDLETOWN RD. &#149; HAMILTON, OHIO 45011 &#149; 1-800-327-3376
-            <br>&copy;<?php date_default_timezone_set("America/Chicago"); echo date("Y"); ?> - TUF-N-LITE&reg; All Rights Reserved.
+        <li class="column seven">(800) 327-3376  &#149; (513) 893-LITE(5483) &#149; (513) 893-5484 (fax)
+            <br><span style="font-size:.8em">4805 HAMILTON-MIDDLETOWN ROAD, HAMILTON, OHIO 45011
+            <br>&copy;<?php date_default_timezone_set("America/Chicago"); echo date("Y"); ?> TUF-N-LITE&reg; All Rights Reserved.</span>
         </li>
         <li class="column three" id="dalaco"><img src="/assets/images/dalaco-logo.png" alt="Dalaco Manufacturing"></li>
     </ul>

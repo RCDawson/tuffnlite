@@ -39,8 +39,8 @@
         <img src="/assets/images/accessories/angle-clip-45.jpg">
         <ul>
             <li>Hardened for many reuses</li>
-            <li>Packed in buckets of 250</li>
-            <li>Weight 26lbs.</li>
+            <li>Packed in boxes of 24</li>
+            <li>Weight 15lbs.</li>
         </ul>
     </div>
     <div class="spotlight twoFifths">

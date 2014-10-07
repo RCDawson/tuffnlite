@@ -8,7 +8,7 @@
                         Liberty Township, OH 45011
                     </p>
                     <h3>(513) 422-5419</h3>
-                    <h3><a href="#">Email Us</a></h3>
+                    <h3><a href="mailto:dane@dalaco.com">Email Us</a></h3>
                 </div>
             </div>
             <div class="column eight">
