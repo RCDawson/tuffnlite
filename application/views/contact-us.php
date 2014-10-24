@@ -4,10 +4,11 @@
             <div class="column four">
                 <div>
                     <h2>TUF-N-LITE</h2>
-                    <p>4805 Hamilton Middletown Rd<br>
-                        Liberty Township, OH 45011
+                        <p>4805 Hamilton Middletown Rd<br>
+                            Liberty Township, OH 45011
                     </p>
-                    <h3>(513) 422-5419</h3>
+                    <h3>(513) 893-LITE(5483)</h3>
+<!--                    <h3>(513) 422-5419</h3>-->
                     <h3><a href="mailto:dane@dalaco.com">Email Us</a></h3>
                 </div>
             </div>

@@ -1,16 +1,19 @@
 <div class="row">
     <div id="main">
-        <div role="presentation" id="hero">
-            <div class="column four">
-                <div>
-                    <h2 class="smaller">6-12 Hole Pattern</h2>
-                    <h2 class="smaller" style="border:none">8-8 Hole Pattern</h2>
-                    <h3 style="font-size: 1.5em">Aluminum Concrete Forms</h3>
-                    <img src="/assets/images/built-industry-tough.png" alt="Built Industry Tough" style="margin-top:2em;">
-                </div>
-            </div>
-            <div class="column eight">
-                <img src="/assets/images/hero-forms.jpg">
+        <div style="position: relative; max-width: 978px; margin-bottom:3.3334em">
+            <img src="/assets/images/welding-forms.png" style="position: absolute; bottom:-60px; right:10px">
+            <div role="presentation" id="hero">
+                    <div class="column four">
+                        <div>
+                            <h2 class="smaller">6-12 Hole Pattern</h2>
+                            <h2 class="smaller" style="border:none">8-8 Hole Pattern</h2>
+                            <h3 style="font-size: 1.5em">Aluminum Concrete Forms</h3>
+                            <img src="/assets/images/built-industry-tough.png" alt="Built Industry Tough" style="margin-top:2em;">
+                        </div>
+                    </div>
+                    <div class="column eight">
+                        <img src="/assets/images/hero-forms.jpg">
+                    </div>
             </div>
         </div>
     </div>

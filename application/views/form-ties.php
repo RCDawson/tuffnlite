@@ -14,6 +14,24 @@
         </div>
     </div>
 </div>
+<br><br> <!-- cheater -->
+<div class="row">
+    <div class="column four">
+        <div>
+            <img src="/assets/images/long-tie.png" alt="Long Tie" style="position: relative; z-index: 2">
+        </div>
+    </div>
+    <div class="column four">
+        <div>
+            <img src="/assets/images/making-ties.jpg" alt="Manufacturing Ties" style="position: relative; z-index: 1; max-width: 280px; margin-right:1em">
+        </div>
+    </div>
+    <div class="column four">
+        <div>
+            <img src="/assets/images/green-monster.jpg" alt="" style="position: relative; z-index: 1; max-width: 280px">
+        </div>
+    </div>
+</div>
 <hr>
 <div role="presentation" class="row">
     <div class="column eight">

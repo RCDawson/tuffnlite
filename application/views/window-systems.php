@@ -18,7 +18,7 @@
 <div role="presentation" class="row" id="window-systems">
     <div class="column six">
         <h2>TUF-N-LITE&reg; Basement Window System</h2>
-        <p>The TUF-N-LITE® Snap-In-Place window system offers advantages of a high quality vinyl window with ease of our patented snap in installation process. Aluminum pouring buck forms a window sill and a integrated retainer system that allows the window to securely snap into   place. No drilling necessary and installation only takes seconds! Our quality windows are available in slider and hopper styles.</p>
+        <p>The TUF-N-LITE® Snap-In-Place window system offers advantages of a high quality vinyl window with ease of our patented snap in installation process. Aluminum pouring buck forms a window sill and a integrated retainer system that allows the window to securely snap into   place. No drilling necessary and installation only takes seconds! Our quality windows are available in slider, hopper, and glass block styles.</p>
         <p>Call us today to learn more about these.</p>
     </div>
     <div class="column six">
