@@ -3,7 +3,7 @@
         <div role="presentation" id="hero">
             <div class="column four">
                 <div>
-                    <h2>8000 PSI</h2>
+                    <h2>8000 lbs.</h2>
                     <h3>We Are Setting The Standard In Concrete Form Ties</h3>
                     <h4 style="color: #ffff66">To be assured you are getting a quality Tie - Look for the MADE IN USA stamp</h4>
                 </div>
